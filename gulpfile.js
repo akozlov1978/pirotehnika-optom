@@ -42,7 +42,7 @@ gulp.task('babel', function() {
         .pipe(uglify())
         .pipe(gulp.dest('./themes/ogonek/js'));
 });
-
+// Сборка скриптов темы сайта
 gulp.task('theme_scripts', [ 'coffee', 'babel' ]);
 
 
